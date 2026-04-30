@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Duyane - @duyane_marine</title>
+  <title>Post Personalizado - @duyane_marine</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
@@ -26,9 +26,7 @@
     .post-container {
       width: 1080px;
       height: 1080px;
-      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
-                  url('./square-insaturate.png') center/cover no-repeat;
-      background-color: #1a1a1a;
+      background: url('./square.png') center/cover no-repeat;
       border-radius: 20px;
       overflow: hidden;
       position: relative;
@@ -40,7 +38,7 @@
     .overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(135deg, rgba(20, 30, 60, 0.65), rgba(80, 20, 40, 0.55));
+      background: transparent;
       transition: background 0.5s ease;
     }
 
@@ -72,6 +70,7 @@
       margin-bottom: 40px;
       letter-spacing: 2px;
       opacity: 0.95;
+      text-shadow: 0 2px 10px rgba(0,0,0,1);
     }
 
     .message {
@@ -80,7 +79,7 @@
       line-height: 1.15;
       font-weight: 700;
       margin-bottom: 60px;
-      text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+      text-shadow: 0 0px 20px rgba(0,0,0,0.6);
     }
 
     .highlight {
@@ -100,6 +99,7 @@
       font-size: 24px;
       opacity: 0.85;
       font-weight: 500;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
     }
 
     /* Controles de edição */
